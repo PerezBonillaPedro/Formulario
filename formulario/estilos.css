@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(209, 205, 205);
+}
+#fondo{
+    background-color: white;
+    width: 80%;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lineas{
+    width: 90%;
+}
+.input{
+    border-style: none;
+    border-bottom-style:groove;
+    width: 50%;
+    padding-top: 10px;
+}
+.nombrecampo{
+    width: 20%;
+    display: inline;
+}
+.campos{
+    width: 70%;
+    display: inline;
+}
+.wid50{
+    width: 50%;
+    display: inline;
+}
+#boton{
+    margin: 20px;
+    width: 10%;
+    height: 40px;
+    font-size: 100%;
+}

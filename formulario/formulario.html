@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <form action="" method="POST">
+        <center><div id="fondo">
+        <h1>Formulario de registro</h1>
+        <center><hr class=lineas></center>
+        
+        <span class="contenedor">
+            <div class="nombrecampo">
+                <p><strong>Nombre y apellidos</strong></p>
+            </div>
+            <div class="campos">
+                <input type="text" class="input" name="nombre"/><br>
+                <label>Nombre</label><br>
+
+                <input type="text" class="input" name="primerapellido"/><br>
+                <label>Primer apellido</label><br>
+
+                <input type="text" class="input" name="segundoapellido"/><br>
+                <label>Segundo apellido</label><br>
+            </div>
+        </span>
+        <center><hr class=lineas></center>
+        <span class="contenedor">
+            <div class="nombrecampo">
+                <p><strong>Dirreción</strong></p>
+            </div>
+            <div class="campos">
+                <input type="text" class="input" name="direccion"/><br>
+                <label>Calle, número, piso, puerta</label><br>
+                <span class="contenedor">
+                    <div class="wid50">
+                        <input type="text" class="input" name="cp"/><br>
+                        <label>Código postal</label><br>
+
+                        <select type="text" class="input" name="poblacion">
+                            <option></option>
+                            <option>Población 1</option>
+                            <option>Población 2</option>
+                            <option>Población 3</option>
+                        </select><br>
+                        <label>Población</label><br>
+                    </div>
+                    <div class="wid50">
+                        <input type="text" class="input" name="municipio"/><br>
+                        <label>Municipio</label><br>
+
+                        <select type="text" class="input" name="pais">
+                            <option></option>
+                            <option>México</option>
+                            <option>PEstado Unidos</option>
+                            <option>Cánada</option>
+                        </select><br>
+                        <label>Pais</label>
+                    </div>
+                </span>
+            </div>
+        </span>
+        
+
+        <center><hr class=lineas></center>
+        <span class="contenedor">
+            <div class="nombrecampo">
+                <p><strong>Email</strong></p>
+            </div>
+            <div class="campos">
+                <input type="email" class="input" name="email"/><br>
+                <label>Email</label><br>
+            </div>
+        </span>
+
+
+        <center><hr class=lineas></center>
+        <span class="contenedor">
+            <div class="nombrecampo">
+                <p><strong>Teléfono</strong></p>
+            </div>
+            <div class="campos">
+                <span class="contenedor">
+                <div class="wid50">
+                <input type="email" class="input" name="telfijo"/><br>
+                <label>Fijo</label><br>
+                </div>
+                <div class="wid50">
+                    <input type="email" class="input" name="telmovil"/><br>
+                    <label>Movil</label><br>
+                </div>
+            </span>
+            </div>
+        </span>
+
+        <center><hr class=lineas></center>
+
+        <input type="submit" id="boton" value="Registrarse"/>
+        </div></center>
+    </form>
+    </body>
+</html>
